@@ -27,6 +27,7 @@ body {
     text-align: center;
     color: white;
 }
+/*tiling of images stopped using no-repeat property*/
 
 .about {
     text-align: center;
@@ -60,6 +61,7 @@ h4{
     transition: .5s ease;
     backface-visibility: hidden;
 }
+/*hiding paragraphs for icons*/
 
 #product{
     opacity: 1;
