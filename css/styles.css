@@ -9,7 +9,7 @@ body {
 /*positioning of body*/
 
 .assets {
-    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/h_img.jpg");
+    background-image: url("../images/h_img.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
@@ -39,7 +39,7 @@ h4{
 
 .contact-div {
     padding-top: 3%;
-    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg");
+    background-image: url("../images/c_img.jpg");
     /* background-color: transparent; */
     height: 500px;
 }
