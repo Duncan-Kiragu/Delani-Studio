@@ -35,7 +35,7 @@
             opacity:1
         });
 
-    $('.im').hover(function() {
+     $('.im').hover(function() {
         $(this).stop().animate({opacity:.4},200);
         $('.layering').fadeIn();
 
@@ -44,7 +44,7 @@
         $('.layering').fadeOut();
       });
 
-    $('.mighty').hide();
+     $('.mighty').hide();
         $('.im').animate({
             opacity:1
             
@@ -54,25 +54,25 @@
         $(this).stop().animate({opacity:.4},200);
         $('.mighty').fadeIn();
 
-    }, function() {
-        $(this).stop().animate({opacity:1},500)
-        $('.mighty').fadeOut();
-    });
+       }, function() {
+         $(this).stop().animate({opacity:1},500)
+         $('.mighty').fadeOut();
+      });
     
-    $('.grey').hide();
-    $('.im').animate({
+      $('.grey').hide();
+      $('.im').animate({
         opacity:1
         
-});
+      });
 
-    $('.im').hover(function() {
+      $('.im').hover(function() {
         $(this).stop().animate({opacity:.4},200);
         $('.grey').fadeIn();
 
-    }, function() {
+        }, function() {
         $(this).stop().animate({opacity:1},500)
         $('.grey').fadeOut();
-    });
+     });
 
     $('.day').hide();
     $('.im').animate({
@@ -93,43 +93,43 @@
     $('.im').animate({
         opacity:1
         
-});
+     });
 
-$('.im').hover(function() {
-    $(this).stop().animate({opacity:.4},200);
-    $('.buttons').fadeIn();
+    $('.im').hover(function() {
+        $(this).stop().animate({opacity:.4},200);
+        $('.buttons').fadeIn();
 
-}, function() {
-    $(this).stop().animate({opacity:1},500)
-    $('.buttons').fadeOut();
-});
-$('.burnt').hide();
-$('.im').animate({
-    opacity:1
-    
-});
+    }, function() {
+        $(this).stop().animate({opacity:1},500)
+        $('.buttons').fadeOut();
+    });
+     $('.burnt').hide();
+     $('.im').animate({
+         opacity:1
 
-$('.im').hover(function() {
-$(this).stop().animate({opacity:.4},200);
-$('.burnt').fadeIn();
+     });
 
-}, function() {
-$(this).stop().animate({opacity:1},500)
-$('.burnt').fadeOut();
-});
+     $('.im').hover(function() {
+     $(this).stop().animate({opacity:.4},200);
+     $('.burnt').fadeIn();
 
-$('.giraffe').hide();
-$('.im').animate({
-    opacity:1
-    
-});
+      }, function() {
+      $(this).stop().animate({opacity:1},500)
+      $('.burnt').fadeOut();
+      });
 
-$('.im').hover(function() {
-$(this).stop().animate({opacity:.4},200);
-$('.giraffe').fadeIn();
+      $('.giraffe').hide();
+      $('.im').animate({
+          opacity:1
 
-}, function() {
-$(this).stop().animate({opacity:1},500)
-$('.giraffe').fadeOut();
-});
-});
+      });
+
+      $('.im').hover(function() {
+      $(this).stop().animate({opacity:.4},200);
+      $('.giraffe').fadeIn();
+
+      }, function() {
+      $(this).stop().animate({opacity:1},500)
+      $('.giraffe').fadeOut();
+      });
+      });
