@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    height: auto;
+    background: white;
+}
+
+.assets {
+    background-image: url("/images/h_img.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.intro {
+    text-align: center;
+}
+
+.services {
+    background-image: url('/images/s_image.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.about {
+    text-align: center;
+    padding-top: 20px;
+    height: 200px;
+}
+ 
+h4{
+    text-align: center;
+
+}
+
+.contact-div {
+    padding-top: 3%;
+    background-image: url("/images/c_image.jpg");
+    /* background-color: transparent; */
+    height: 500px;
+}
+
+#design{
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+#dev{
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+#product{
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.row{
+    padding-left: 50px;
+}
+
+.col-md-3{
+    padding-bottom: 20px;
+}
+
+#port {
+    text-align: center;
+}
+
+.animation{
+    display: none;
+    background-color: white;
+    color: black;
+    opacity:0.5;
+}
+
+.layering{
+    display: none;
+  background-color: white;
+  color: black;
+  opacity:0.5;
+}
+
+.mighty{
+    display: none;
+  background-color: white;
+  color: black;
+  opacity:0.5;
+}
+
+.grey{
+    display: none;
+  background-color: white;
+  color: black;
+  opacity:0.5;
+}
+
+.day{
+    display: none;
+  background-color: white;
+  color: black;
+  opacity:0.5;
+}
+
+.buttons{
+    display: none;
+  background-color: white;
+  color: black;
+  opacity:0.5;
+}
+
+.burnt{
+    display: none;
+  background-color: white;
+  color: black;
+  opacity:0.5;
+}
+
+.giraffe{
+    display: none;
+  background-color: white;
+  color: black;
+  opacity:0.5;
+}
+
+.carousel-caption{
+    display: none;
+    opacity: 5.6;
+    background-color:gray
+}
+
+.contact-div{
+    padding-left: 450px;
+}
+
+.contact-name{
+    width: 350px;
+    background-color: transparent;
+}
+
+.contact-email{
+    width: 350px;
+    background-color: transparent;
+}
+
+#contact-message{
+    width: 700px;
+    height: 200px;
+    background-color: transparent;
+    padding-bottom: 160px;
+    margin-top: 10px;
+    color: white;
+}
+
+button[type=submit]{
+    height: 40px;
+    width: 200px;
+    background-color: transparent;
+    color: gray;
+    align-content: center;
+    margin-left: 250px;
+}
+
+.center-footer{
+    text-align: center;
+}
+#design {
+    display: none;
+}
+
+#dev {
+    display: none;
+}
+
+#product {
+    display: none;
+}
+ 
+#desv{
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+#footer-icons {
+    text-align: center;
+}
+
