@@ -1,50 +1,48 @@
  $(document).ready(function(){
    $("#img1").click(function(){
         $("#design").toggle()
-    });
+     });
 
     $("#img2").click(function(){
         $("#dev").toggle()
-    });
+     });
 
     $("#img3").click(function(){
         $("#product").toggle()
-    });
+     });
   
     $("form").submit (function(event) {
         var name=$("#contact-name").val();
         alert("Thank you"+ name +"for subscribing");
-    });
+     });
 
     $('.animation').hide();
         $('.im').animate({
             opacity:1
-            
-    });
+     });
 
     $('.im').hover(function() {
         $(this).stop().animate({opacity:.4},200);
         $('.animation').fadeIn();
 
-    }, function() {
+       }, function() {
         $(this).stop().animate({opacity:1},500)
         $('.animation').fadeOut();
-    });
+       });
 
     $('.layering').hide();
         $('.im').animate({
             opacity:1
-            
-    });
+        });
 
     $('.im').hover(function() {
         $(this).stop().animate({opacity:.4},200);
         $('.layering').fadeIn();
 
-    }, function() {
+      }, function() {
         $(this).stop().animate({opacity:1},500)
         $('.layering').fadeOut();
-    });
+      });
 
     $('.mighty').hide();
         $('.im').animate({
