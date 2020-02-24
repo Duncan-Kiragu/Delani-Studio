@@ -38,7 +38,7 @@ h4{
 
 .contact-div {
     padding-top: 3%;
-    background-image: url("/images/c_image.jpg");
+    background-image: url("https://raw.githubusercontent.com/jonnygovish/IP3/master/assets/backgrounds/c_image.jpg");
     /* background-color: transparent; */
     height: 500px;
 }
