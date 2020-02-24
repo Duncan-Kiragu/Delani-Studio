@@ -62,7 +62,6 @@ $(document).ready(function(){
       $('.grey').hide();
       $('.im').animate({
         opacity:1
-        
       });
 
       $('.im').hover(function() {
