@@ -10,6 +10,7 @@
     $("#img3").click(function(){
         $("#product").toggle()
     });
+  
     $("form").submit (function(event) {
         var name=$("#contact-name").val();
         alert("Thank you"+ name +"for subscribing");
