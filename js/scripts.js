@@ -1,6 +1,5 @@
  $(document).ready(function(){
-
-    $("#img1").click(function(){
+   $("#img1").click(function(){
         $("#design").toggle()
     });
 
