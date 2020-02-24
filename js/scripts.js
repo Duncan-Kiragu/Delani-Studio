@@ -1,4 +1,4 @@
- $(document).ready(function(){
+$(document).ready(function(){
    $("#img1").click(function(){
         $("#design").toggle()
      });
