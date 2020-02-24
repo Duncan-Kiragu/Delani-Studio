@@ -21,7 +21,7 @@ body {
 }
 
 .services {
-    background-image: url('/images/s_image.jpg');
+    background-image: url('../images/s_image.jpg');
     background-repeat: no-repeat;
     text-align: center;
     color: white;
