@@ -10,7 +10,7 @@ My third weekly independent project on the Delani Studio site
 Delani-studio is a fictional studio landing page that will show my prowess in jQuery and Bootstrap along with other web development scripting languages
 as i have learnt in Moringa School.
 
-##DEPENDENCIES
+## DEPENDENCIES
 A good internet connection and an internet browser preferably Chrome or Chromium browsers.
 
 ## SETUP
