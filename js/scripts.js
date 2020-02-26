@@ -1,14 +1,14 @@
 $(document).ready(function(){
    $("#img1").click(function(){
-        $("#img1").hide()
-        $("#design").toggle()
-        $("#design").show()
-     });
+        $("#img1").hide();
+        $("#design").toggle();
+        $("#design").show();
+     })
     $("#design").click(function(){
-        $("#design").hide()
-        $("#img1").toggle()
-        $("#img1").show()
-     });
+        $("#design").hide();
+        $("#img1").toggle();
+        $("#img1").show();
+     })
 
     $("#img2").click(function(){
         $("#dev").toggle()
